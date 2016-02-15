@@ -1,13 +1,10 @@
 # Aperitivo
 
-## A starter project that includes CoffeeScript, Browserify, Sass, BrowserSync and Gulp
-
 *Aperitivo* (appetizer or snack) is a template project to start working with CoffeeScript and Sass. It uses Gulp as the building system and Browserify to bundle CoffeeScript source. It also uses BrowserSync to keep browsers in sync while developing.  
 
 ## To run the project
 
 ```bash
-$ npm install -g gulp
 $ npm install
 $ gulp
 ```
