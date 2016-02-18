@@ -86,9 +86,7 @@ gulp.task 'watch', ->
     browserSync.reload(file.path) if file.type is "changed"
 
 gulp.task 'clean', ->
-  return del([
-    'dist'
-  ])
+  return del.sync(['dist'])
 
 gulp.task 'build', ->
   runSequence 'clean', ['style', 'lint', 'src', 'html']
